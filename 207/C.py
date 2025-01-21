@@ -26,7 +26,7 @@ for i in range(N):
             count += 1
         elif lList[i] <= rList[j] <= rList[i]:
             count += 1
-        elif lList[j] <= lList[i] <= rList[i]:
+        elif lList[j] <= lList[i] <= rList[j]:
             count += 1
         elif lList[j] <= rList[i] <= rList[j]:
             count += 1
